@@ -1,0 +1,178 @@
+@font-face {
+  font-family: "PF BeauSans Pro";
+  src: local("PFBeauSansPro-Regular"), url("https://static.fif.tech/omnichannel-assets/bfcl/fonts/PfBeauSansPro/win/pfbeausanspro-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Maven Pro";
+  src: local("MavenPro-Regular"), url("https://static.fif.tech/omnichannel-assets/bfcl/fonts/MavenPro/mavenpro-regular.ttf") format("trueType");
+  font-weight: normal;
+  font-style: normal;
+}
+.wc-pin-change-receipt {
+  font-family: "Maven Pro";
+}
+.wc-pin-change-receipt-header p {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #333537;
+  margin-bottom: 19px 0;
+}
+.wc-pin-change-receipt-body {
+  border: 1px solid #c9d4df;
+  border-radius: 6px;
+  background: #ffffff;
+}
+.wc-pin-change-receipt-body-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 624px;
+  margin: 0 auto;
+  gap: 32px;
+}
+.wc-pin-change-receipt-body-container hr {
+  margin-top: 32px;
+  color: #C3CDD8;
+  border: 0.5px;
+}
+.wc-pin-change-receipt-body-container-icon {
+  width: 96px;
+  margin: 0 auto;
+}
+.wc-pin-change-receipt-body-container-title {
+  font-size: 1.75rem;
+  line-height: 140%;
+  color: #333537;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin: 0;
+}
+.wc-pin-change-receipt-body-container-info {
+  background: #F3F5FC;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem;
+}
+.wc-pin-change-receipt-body-container-info-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0.25rem 0 0.25rem 0;
+  gap: 12px;
+}
+.wc-pin-change-receipt-body-container-info-content-text p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.15%;
+  color: #333537;
+  text-align: left;
+  padding: 0 0 0.125rem 0.625rem;
+  display: contents;
+}
+@media print {
+  .wc-pin-change-receipt-body-container-info-content-text p {
+    display: block;
+  }
+}
+.wc-pin-change-receipt-body-container-detail-title {
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 150%;
+  margin: 0;
+}
+.wc-pin-change-receipt-body-container-detail {
+  display: flex;
+  flex-direction: column;
+}
+.wc-pin-change-receipt-body-container-detail-group {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+  margin-top: 4px;
+  display: flex;
+  justify-content: space-between;
+  padding: 4px;
+  color: #333537;
+}
+.wc-pin-change-receipt-body-container-detail-group-header {
+  font-weight: 450;
+  font-size: 1.25rem;
+  line-height: 150%;
+  letter-spacing: -0.01rem;
+  margin: 0;
+}
+.wc-pin-change-receipt-body-container-detail-group-data {
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 150%;
+  letter-spacing: -0.01rem;
+  margin: 0;
+}
+.wc-pin-change-receipt-body-container-email-info {
+  margin-top: 32px;
+  margin-bottom: 28px;
+  display: flex;
+  gap: 8px;
+}
+.wc-pin-change-receipt-body-container-email-info-text p {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.15%;
+  color: #333537;
+  letter-spacing: -0.01rem;
+}
+@media (max-width: 480px) {
+  .wc-pin-change-receipt-body-container {
+    padding: 0 0.5rem;
+  }
+}
+.wc-pin-change-receipt-controls {
+  display: flex;
+  float: right;
+  margin-bottom: 33px;
+  gap: 16px;
+  padding-top: 24px;
+}
+.wc-pin-change-receipt-controls-primary {
+  font-family: "Maven Pro";
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 24px;
+  width: auto;
+  min-width: 180px;
+  height: 56px;
+  padding: 16px;
+  border-radius: 512px;
+  border: none;
+  outline: none;
+  background-color: #3B9326;
+  color: white;
+  cursor: pointer;
+}
+.wc-pin-change-receipt-controls-primary:hover {
+  background-color: #43b02a;
+}
+.wc-pin-change-receipt-controls-secondary {
+  font-family: "Maven Pro";
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 24px;
+  width: auto;
+  min-width: 180px;
+  height: 56px;
+  padding: 16px;
+  border-radius: 512px;
+  border: none;
+  outline: none;
+  background-color: #f4f7f8;
+  color: #323537;
+  cursor: pointer;
+}
+.wc-pin-change-receipt-controls-secondary:hover {
+  background-color: #f4f7f8;
+}
+
+/*# sourceMappingURL=print-styles.css.map */
